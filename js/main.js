@@ -556,4 +556,6 @@ const ssAccordion = function() {
 
   })();
 
+  ssInit();
+
 })(document.documentElement);
