@@ -289,20 +289,10 @@
               el: '.swiper-pagination',
               clickable: true,
           },
-          breakpoints: {
-              401: {
-                  slidesPerView: 1,
-                  spaceBetween: 20
-              },
-              801: {
-                  slidesPerView: 1,
-                  spaceBetween: 32
-              },
-              1201: {
-                  slidesPerView: 1,
-                  spaceBetween: 80
-              }
-          }
+          autoplay: {
+            delay: 9000,
+            disableOnInteraction: true,
+          },
        });
 
   };
@@ -344,7 +334,7 @@
   const pdfLightbox = function() {
 
     const pdfLinks = document.querySelectorAll('.link-see-pdf');
-    const pdfFiles = ['resume','recommendation__tefl'];
+    const pdfFiles = ['resume','recommendation__tefl','recommendation__imm'];
 
     pdfLinks.forEach(function(link, index) {
       link.addEventListener("click", function(event) {

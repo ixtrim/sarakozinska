@@ -3766,10 +3766,6 @@ img.u-pull-left {
   padding-bottom: var(--vspace-2_5);
 }
 
-.testimonials .swiper-container-horizontal .swiper-pagination-bullets {
-    display: none;
-  }
-
 .testimonials .swiper-container-horizontal .swiper-pagination-bullets .swiper-pagination-bullet {
   margin: 0 9px;
 }
